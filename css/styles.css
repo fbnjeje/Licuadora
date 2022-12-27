@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+}
+.licuadora{
+    width: 300px;
+    height: 500px;
+    background-image: url(/img/licuadoraApagada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.boton{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: 350px;
+    left: 115px;
+}
+
+.toogle{
+    background-image: url(/img/licuadoraEncendida.gif);
+}
